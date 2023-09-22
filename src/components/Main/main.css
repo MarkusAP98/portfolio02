@@ -1,9 +1,10 @@
 
 .main {
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .video-background video {
     width: 100%;
-    z-index: -100;
 }

@@ -1,4 +1,5 @@
 .navbar {
+    height: 0.9rem;
     display: flex;
     justify-content: space-between;
     margin: 1rem 4rem;
