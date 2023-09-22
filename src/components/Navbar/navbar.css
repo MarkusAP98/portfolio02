@@ -15,7 +15,7 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .navbar__list li:hover {
