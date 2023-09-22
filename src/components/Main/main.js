@@ -14,6 +14,11 @@ const Main = () => {
         />
       </video>
     </div>
+    <div className="main-text">
+        <h1>Hi There</h1>
+        <h4>I'm Markus</h4>
+        <h5>a Web Developer</h5>
+    </div>
     </div>
    
   );
