@@ -12,6 +12,11 @@
     justify-content: space-between;
 }
 
+.navbar__list li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
 .navbar__icons ul{
     display: flex;
     list-style: none;
@@ -23,4 +28,5 @@
 .navbar__icons li:hover {
     color: aqua;
     cursor: pointer;
+    margin-top: 2px;
 }
