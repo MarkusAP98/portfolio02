@@ -1,10 +1,15 @@
 
 import './App.css';
+import { Navbar, Main, Projects, Skills, Footer } from './components'
 
 function App() {
   return (
     <div className="App">
-        <h1>Hello World</h1>
+        <Navbar />
+        <Main />
+        <Projects />
+        <Skills />
+        <Footer />
     </div>
   );
 }
