@@ -3,6 +3,9 @@
     color: white;
     margin: 0;
     padding: 0;
+    position: relative;
+    top: -55px;
+    z-index: -1;
 }
 
 .video-background video {
