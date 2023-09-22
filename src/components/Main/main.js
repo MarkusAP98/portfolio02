@@ -6,14 +6,13 @@ const Main = () => {
   return (
     <div className="main">
        <div className="video-background">
+       
       <video autoPlay loop muted>
         <source
           src={video}
           type="video/mp4"
         />
       </video>
-      {/* Add your content on top of the video */}
-      <div className="content">{/* Your content goes here */}</div>
     </div>
     </div>
    
