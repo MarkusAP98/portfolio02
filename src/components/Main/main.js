@@ -11,7 +11,6 @@ const Main = () => {
           src={video}
           type="video/mp4"
         />
-        Your browser does not support the video tag.
       </video>
       {/* Add your content on top of the video */}
       <div className="content">{/* Your content goes here */}</div>
