@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 4rem;
+    color: white;
+}
+
+.navbar__list ul{
+    width: 20rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar__icons ul{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    width: 10rem;
+    justify-content: space-between;
+}
+
+.navbar__icons li:hover {
+    color: aqua;
+    cursor: pointer;
+}
