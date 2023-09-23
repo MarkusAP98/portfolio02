@@ -1,13 +1,16 @@
 .projects {
-    background: black;
+  background: black;
+  margin-top: -2rem;
+  padding-top: 10rem;
 }
 
 .projects h1 {
-    color: white;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .barplay_img {
-    width: 25rem;
-    cursor: pointer;
+  width: 25rem;
+  cursor: pointer;
 }
-

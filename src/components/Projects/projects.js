@@ -5,7 +5,7 @@ import BarplayClone from "../../assets/images/barplay_clone.png";
 const projects = () => {
   return (
     <div className="projects">
-    <h1>Projects</h1>
+    <h1>PROJECTS</h1>
       <div className="projects__wrapper">
         <div className="barplay">
           <a href="#">
