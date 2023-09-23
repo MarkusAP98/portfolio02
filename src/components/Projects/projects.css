@@ -1,0 +1,13 @@
+.projects {
+    background: black;
+}
+
+.projects h1 {
+    color: white;
+}
+
+.barplay_img {
+    width: 25rem;
+    cursor: pointer;
+}
+
