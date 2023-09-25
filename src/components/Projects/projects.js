@@ -36,10 +36,27 @@ const projects = () => {
           <div className="allProjects_text">
             <h3>ChatGpt3</h3>
             <p>
-              Barplay is a very popular bar in joensuu. They have this nice
-              clean design so I had to challenge myself to build a similar one.
-              This website purpose is to let the costumer know when the bar is
-              open and what service food or drinks they offer.
+              In resent Years ChatGpt3 has become so big. with all the amazing
+              things you can do with it. So it was cool to make a site that has
+              ChatGpt3 theme.
+            </p>
+            <div className="allProjects_btns">
+              <button>View Code</button>
+              <button>Live Website</button>
+            </div>
+          </div>
+        </div>
+        {/* ---------personal trainer----- */}
+        <div className="allProjects">
+          <a href="#">
+            <img src={ChatGpt3} className="allProjects_img"></img>
+          </a>
+          <div className="allProjects_text">
+            <h3>ChatGpt3</h3>
+            <p>
+              In resent Years ChatGpt3 has become so big. with all the amazing
+              things you can do with it. So it was cool to make a site that has
+              ChatGpt3 theme.
             </p>
             <div className="allProjects_btns">
               <button>View Code</button>
