@@ -1,7 +1,8 @@
 import React from "react";
 import "./projects.css";
 import BarplayClone from "../../assets/images/barplayClone02.png";
-import ChatGpt3 from '../..//assets/images/chat_gpt3.png';
+import ChatGpt3 from '../../assets/images/chat_gpt3.png';
+import PersonalTrainer from '../../assets/images/PersonalTrainer.png'
 
 
 const projects = () => {
@@ -49,10 +50,10 @@ const projects = () => {
         {/* ---------personal trainer----- */}
         <div className="allProjects">
           <a href="#">
-            <img src={ChatGpt3} className="allProjects_img"></img>
+            <img src={PersonalTrainer} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
-            <h3>ChatGpt3</h3>
+            <h3>PersonalTrainer</h3>
             <p>
               In resent Years ChatGpt3 has become so big. with all the amazing
               things you can do with it. So it was cool to make a site that has
