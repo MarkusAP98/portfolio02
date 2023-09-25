@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import BarplayClone from "../../assets/images/barplayClone02.png";
+import ChatGpt3 from '../..//assets/images/chat_gpt3.png';
 
 
 const projects = () => {
@@ -27,13 +28,13 @@ const projects = () => {
           </div>
         </div>
 
-        {/* --------UUno-------- */}
+        {/* --------ChatGpt3-------- */}
         <div className="allProjects" style={{ flexDirection: "row-reverse" }}>
           <a href="#">
-            <img src={BarplayClone} className="allProjects_img"></img>
+            <img src={ChatGpt3} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
-            <h3>Personal Trainer</h3>
+            <h3>ChatGpt3</h3>
             <p>
               Barplay is a very popular bar in joensuu. They have this nice
               clean design so I had to challenge myself to build a similar one.
