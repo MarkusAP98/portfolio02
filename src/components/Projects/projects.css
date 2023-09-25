@@ -2,6 +2,13 @@
   background: black;
   margin-top: -2rem;
   padding-top: 5rem;
+  color: white;
+  position: relative;
+  top:-3rem;
+}
+
+.projects__wrapper {
+    margin: 0rem 2rem;
 }
 
 .projects h1 {
@@ -12,14 +19,28 @@
   top: -10rem;
 }
 
+.barplay {
+    display: flex;
+}
+
 .barplay_img {
-  width: 44rem;
-  height: 29rem;
+  width: 80%;
   cursor: pointer;
   border-radius: 20px;
-  border: solid 4px white ;
+  border: solid 2px white ;
 }
 
 .barplay_img:hover {
     border: solid 4px red
+}
+
+.barplay_text {
+    width: 50%;
+}
+
+.barplay_text h3 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
