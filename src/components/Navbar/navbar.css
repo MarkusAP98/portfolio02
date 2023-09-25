@@ -5,7 +5,7 @@
     justify-content: space-between;
     color: white;
     background-color: transparent;
-    position: relative;
+    position: absolute;
     top: 1rem;
 }
 
