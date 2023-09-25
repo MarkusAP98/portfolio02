@@ -6,6 +6,7 @@
   color: white;
   position: relative;
   top: -3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .projects__wrapper {
@@ -20,47 +21,48 @@
   top: -10rem;
 }
 
-.barplay {
+.allProjects {
   display: flex;
+  padding-bottom: 10rem;
 }
 
-.barplay a {
+.allProjects a {
   width: 50%;
 }
 
-.barplay_img {
+.allProjects_img {
   width: 100%;
   cursor: pointer;
   border-radius: 20px;
   border: solid 2px white;
 }
 
-.barplay_img:hover {
+.allProjects_img:hover {
   border: solid 2px aqua;
 }
 
-.barplay_text {
+.allProjects_text {
   width: 50%;
   margin-left: 3rem;
   border-radius: 10px;
 }
 
-.barplay_text h3 {
+.allProjects_text h3 {
   color: rgb(109, 199, 230);
   text-align: center;
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-.barplay_text p {
+.allProjects_text p {
   width: 80%;
   margin-left: 5rem;
 }
-.barplay_btns {
+.allProjects_btns {
 text-align: center;
 }
 
-.barplay_btns button {
+.allProjects_btns button {
   font-size:  16px;
   font-weight: 700;
   color: white;
