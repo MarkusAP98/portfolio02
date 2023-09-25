@@ -14,9 +14,15 @@ const projects = () => {
           <div className="barplay_text">
             <h3>Barplay Clone</h3>
             <p>
-              Barplay is Very popular bar in Joensuu. they have this really good
-              web design so I build a clone of it
+              Barplay is a very popular bar in joensuu. They have this nice
+              clean design so i had to change myself to build a similar one.
+              This website purpose is to let the costumer know when the bar is
+              open and what service food or drinks they offer.
             </p>
+            <div className="barplay_btns">
+              <button>View Code</button>
+              <button>Live Website</button>
+            </div>
           </div>
         </div>
       </div>
