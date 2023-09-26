@@ -17,10 +17,10 @@ const projects = () => {
           <div className="allProjects_text">
             <h3>Barplay</h3>
             <p>
-              Barplay is a very popular bar in joensuu. They have this nice
-              clean design so I had to challenge myself to build a similar one.
-              This website purpose is to let the costumer know when the bar is
-              open and what service food or drinks they offer.
+              "Barplay is a very popular bar in Joensuu. They have this nice,
+              clean design, so I had to challenge myself to build a similar one.
+              This website's purpose is to let the customer know when the bar is
+              open and what services, food, or drinks they offer."
             </p>
             <div className="allProjects_btns">
               <button>View Code</button>
@@ -37,9 +37,9 @@ const projects = () => {
           <div className="allProjects_text">
             <h3>ChatGpt3</h3>
             <p>
-              In resent Years ChatGpt3 has become so big. with all the amazing
+              "In recent years, ChatGpt3 has become so big, with all the amazing
               things you can do with it. So it was cool to make a site that has
-              ChatGpt3 theme.
+              a ChatGpt3 theme."
             </p>
             <div className="allProjects_btns">
               <button>View Code</button>
@@ -55,10 +55,10 @@ const projects = () => {
           <div className="allProjects_text">
             <h3>PersonalTrainer</h3>
             <p>
-              I have a friend he is a Personal Trainer and he happens to be
-              needing a website so I made one for him just to get more training
-              on making websites. The design is very simple and He is happy with
-              the Website.
+              "I have a friend who is a Personal Trainer, and he happened to
+              need a website. So I made one for him just to get more training in
+              making websites. The design is very simple, and he is happy with
+              the website."
             </p>
             <div className="allProjects_btns">
               <button>View Code</button>
