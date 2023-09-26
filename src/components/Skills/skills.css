@@ -1,7 +1,22 @@
 .skills {
-    margin-top: -5rem;
+    margin-top: -2rem;
+    background: black;
+    color: white;
 }
 
 .skills h1 {
-    color: white;
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    top: -5rem;
 }
+
+.skills-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_txt {
+    width: 40%;
+}
+
