@@ -7,8 +7,8 @@ function App() {
     <div className="App">
         <Navbar />
         <Main />
-        <Projects />
         <Skills />
+        <Projects />
         <Footer />
     </div>
   );
