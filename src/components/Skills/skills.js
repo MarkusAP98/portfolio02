@@ -15,8 +15,8 @@ const skills = () => {
           </p>
           <p>
             I also like sharing content related to the stuff that I have learned
-            over the years in Web Development. Feel free to Connect or Follow me
-            on my{" "}
+            over the years in <strong>Web Development</strong>. Feel free to
+            Connect or Follow me on my{" "}
             <a className="skills-links">
               <strong>Linkedin </strong>
             </a>
