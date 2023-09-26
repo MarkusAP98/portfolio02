@@ -76,9 +76,8 @@ const projects = () => {
           <div className="allProjects_text">
             <h3>Resturuant</h3>
             <p>
-              In resent Years ChatGpt3 has become so big. with all the amazing
-              things you can do with it. So it was cool to make a site that has
-              ChatGpt3 theme.
+              Gericht has this nice Italien Resturauant Theme. With Beautiful
+              images i was able to make this nice looking website.
             </p>
             <div className="allProjects_btns">
               <button>View Code</button>
