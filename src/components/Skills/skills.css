@@ -2,6 +2,8 @@
     margin-top: -2rem;
     background: black;
     color: white;
+    padding-bottom:10rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .skills h1 {
@@ -18,5 +20,46 @@
 
 .about_txt {
     width: 40%;
+    font-size: 20px;
+    text-align: center;
 }
 
+.skills h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.skills-showcase {
+    justify-content: space-between;
+    width: 30%;
+    
+}
+
+.skills-btn {
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgb(109, 199, 230);
+    color: white;
+    border-radius:  20px;
+}
+
+.skills-btn-text {
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgb(109, 199, 230);
+    color: white;
+    border-radius:  20px;
+}
+
+.skills-links {
+    color:rgb(109, 199, 230);
+    cursor: pointer;
+}

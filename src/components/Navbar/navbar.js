@@ -31,11 +31,6 @@ const navbar = () => {
               <AiFillLinkedin />
             </a>
           </li>
-          <li>
-            <a>
-              <AiFillInstagram />
-            </a>
-          </li>
         </ul>
       </div>
     </div>
