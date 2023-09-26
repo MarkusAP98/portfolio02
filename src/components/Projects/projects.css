@@ -1,11 +1,9 @@
 .projects {
   background: black;
-  margin-top: -2rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: white;
   position: relative;
-  top: -3rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -18,7 +16,7 @@
   font-size: 3rem;
   text-align: center;
   position: relative;
-  top: -10rem;
+  top: -5rem;
 }
 
 .allProjects {
