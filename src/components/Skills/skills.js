@@ -24,7 +24,7 @@ const skills = () => {
             Programming
           </p>
           <p>
-            I'm open to <strong>Job</strong> opportunities where I can
+            I'm open for <strong>Job</strong> opportunities where I can
             contribute, learn and grow. If you have a good opportunity that
             matches my skills and experience then don't hesitate to contact me
             with{" "}
