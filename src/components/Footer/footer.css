@@ -1,0 +1,18 @@
+.footer-info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(54, 54, 54);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+}
+
+.footer_icons ul {
+  list-style: none;
+}
+
+.footer-copyRight {
+  text-align: center;
+  color: white;
+  background: rgb(54, 54, 54);
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const navbar = () => {
   return (
