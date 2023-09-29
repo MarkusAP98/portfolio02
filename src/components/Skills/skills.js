@@ -14,22 +14,12 @@ const skills = () => {
             <strong>Projects</strong> section.
           </p>
           <p>
-            I also like sharing content related to the stuff that I have learned
-            over the years in <strong>Web Development</strong>. Feel free to
-            Connect or Follow me on my{" "}
-            <a className="skills-links">
-              <strong>Linkedin </strong>
-            </a>
-            where I post useful content related to Web Development and
-            Programming
-          </p>
-          <p>
-            I'm open to <strong>Job</strong> opportunities where I can
+            I'm open for <strong>Job</strong> opportunities where I can
             contribute, learn and grow. If you have a good opportunity that
             matches my skills and experience then don't hesitate to contact me
             with{" "}
             <a className="skills-links">
-              <strong>Linkedin </strong>
+              <strong>Linkedin</strong>
             </a>
             .
           </p>

@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import BarplayClone from "../../assets/images/barplayClone02.png";
 import ChatGpt3 from "../../assets/images/chat_gpt3.png";
-import PersonalTrainer from "../../assets/images/PersonalTrainer.png";
+import PersonalTrainer from "../../assets/images/PT-uuno.png";
 import Resturaunt from "../../assets/images/Resturaunt.png";
 
 const projects = () => {
@@ -74,9 +74,9 @@ const projects = () => {
             <img src={Resturaunt} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
-            <h3>Resturuant</h3>
+            <h3>Restaurant</h3>
             <p>
-              Gericht has this nice Italien Resturauant Theme. With Beautiful
+              Gericht has this nice Italian Restaurant Theme. With Beautiful
               images i was able to make this nice looking website.
             </p>
             <div className="allProjects_btns">
