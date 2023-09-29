@@ -63,3 +63,9 @@
     color:rgb(109, 199, 230);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1250px) {
+    .skills {
+        margin-top: -3rem;
+    }
+}
