@@ -20,12 +20,19 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  color: white;
 }
 
-.navbar__list li:hover {
-  color: aqua;
+.navbar__bigscreen a {
+    color: white;
+    text-decoration:none ;
+}
+
+.navbar__bigscreen a:hover {
+     color: aqua;
   cursor: pointer;
 }
+
 
 .navbar__icons ul {
   display: flex;
