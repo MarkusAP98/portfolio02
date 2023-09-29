@@ -1,4 +1,4 @@
-.navbar {
+.navbar__bigscreen {
     width: 100%;
     height: 2rem;
     display: flex;
@@ -41,4 +41,17 @@
     color: aqua;
     cursor: pointer;
     margin-top: 2px;
+}
+
+/* ----smallscreen---------- */
+
+
+@media screen and (max-width: 1250px) {
+    .navbar__bigscreen {
+        display: none;
+    }
+}
+
+.navbar__smallscreen {
+    display: none;
 }
