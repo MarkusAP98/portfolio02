@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 
-const navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="navbar">
       <div className="navbar__bigscreen">
@@ -56,4 +56,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
