@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import BarplayClone from "../../assets/images/barplayClone02.png";
 import ChatGpt3 from "../../assets/images/chat_gpt3.png";
-import PersonalTrainer from "../../assets/images/PersonalTrainer.png";
+import PersonalTrainer from "../../assets/images/PT-uuno.png";
 import Resturaunt from "../../assets/images/Resturaunt.png";
 
 const projects = () => {

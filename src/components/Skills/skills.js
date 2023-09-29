@@ -29,7 +29,7 @@ const skills = () => {
             matches my skills and experience then don't hesitate to contact me
             with{" "}
             <a className="skills-links">
-              <strong>Linkedin </strong>
+              <strong>Linkedin</strong>
             </a>
             .
           </p>
