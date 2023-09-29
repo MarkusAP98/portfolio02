@@ -26,12 +26,15 @@ const Navbar = () => {
         <div className="navbar__icons">
           <ul>
             <li>
-              <a>
+              <a href="https://github.com/MarkusAP98" target="_blank">
                 <AiFillGithub />
               </a>
             </li>
             <li>
-              <a>
+              <a
+                href="https://www.linkedin.com/in/markus-phantha-245605239/"
+                target="_blank"
+              >
                 <AiFillLinkedin />
               </a>
             </li>
