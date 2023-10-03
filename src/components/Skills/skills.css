@@ -1,71 +1,97 @@
 .skills {
-    margin-top: -2rem;
-    background: black;
-    color: white;
-    padding-bottom:10rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -2rem;
+  background: black;
+  color: white;
+  padding-bottom: 10rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .skills h1 {
-    text-align: center;
-    font-size: 3rem;
-    position: relative;
-    top: -5rem;
+  text-align: center;
+  font-size: 3rem;
+  position: relative;
+  top: -5rem;
 }
 
 .skills-wrapper {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .about_txt {
-    width: 40%;
-    font-size: 20px;
-    text-align: center;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
 }
 
 .skills h3 {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
 }
 
 .skills-showcase {
-    justify-content: space-between;
-    width: 30%;
-    
+  justify-content: space-between;
+  width: 30%;
 }
 
 .skills-btn {
-    cursor: pointer;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-left: 3rem;
-    font-size: 1rem;
-    padding: 1rem;
-    background-color: rgb(109, 199, 230);
-    color: white;
-    border-radius:  20px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: rgb(109, 199, 230);
+  color: white;
+  border-radius: 20px;
 }
 
 .skills-btn-text {
-    cursor: pointer;
-    font-weight: 600;
-    margin-top: 1rem;
-    font-size: 1rem;
-    padding: 1rem;
-    background-color: rgb(109, 199, 230);
-    color: white;
-    border-radius:  20px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: rgb(109, 199, 230);
+  color: white;
+  border-radius: 20px;
 }
 
 .skills-links {
-    color:rgb(109, 199, 230);
-    cursor: pointer;
+  color: rgb(109, 199, 230);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1250px) {
-    .skills {
-        margin-top: -4.7rem;
+  .skills {
+    margin-top: -4.7rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .skills-wrapper {
+    position: relative;
+    top: -15rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-showcase {
+    width: 40rem;
+    text-align: center;
+    margin-top: 3rem;
+    
+  }
+
+   .skills-btns {
+    margin-left: -4rem;
+   }
+  .skills h1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+    .about_txt {
+        font-size: 18px;
     }
 }
