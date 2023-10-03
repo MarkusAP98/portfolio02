@@ -7,7 +7,7 @@ import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar__bigscreen">
         <h1>Portfolio</h1>
         <div className="navbar__list">
@@ -17,9 +17,6 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
             </li>
           </ul>
         </div>
@@ -54,8 +51,28 @@ const Navbar = () => {
             onClick={() => setToggleMenu(true)}
           />
         </div>
+        {/*------ after clicked hamburger this will be open----- */}
+        {toggleMenu && (
+          <div className="navbar__smallscreen-overlay">
+            <div className="sm-header">
+              <h1>Portfolio</h1>
+              <RxCross1 className="x" onClick={() => setToggleMenu(false)} />
+            </div>
+
+            <div className="navbar__list-sm">
+              <ul>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
-    </div>
+    </nav>
   );
 };
 

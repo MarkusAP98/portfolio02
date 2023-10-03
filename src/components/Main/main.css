@@ -29,3 +29,15 @@
         top: -68px;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .main-text {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .main-text {
+        font-size: 3rem;
+    }
+}
