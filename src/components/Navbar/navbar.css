@@ -66,16 +66,38 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1250px) {
+
+@media screen and (max-width: 850px) {
   .navbar__bigscreen {
     display: none;
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 850px) {
   .navbar__smallscreen {
     display: flex;
     background: transparent;
     color: white;
   }
+}
+/* ------hamburger clicked------ */
+
+.navbar__smallscreen-overlay {
+  position: absolute;
+  width: 100%;
+  background: black;
+}
+
+.sm-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.sm-header h1 {
+  font-size: 30px;
+}
+.x {
+  font-size: 34px;
+  cursor: pointer;
 }
