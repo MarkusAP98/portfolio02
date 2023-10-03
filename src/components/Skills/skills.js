@@ -26,7 +26,12 @@ const skills = () => {
           <br></br>
           <br></br>
           <button className="skills-btn-text">
-            <a>Linkedin</a>
+            <a
+              href="https://www.linkedin.com/in/markus-phantha-245605239/"
+              target="_blank"
+            >
+              Linkedin
+            </a>
           </button>
         </div>
         <div className="skills-showcase">

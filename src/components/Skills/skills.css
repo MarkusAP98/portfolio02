@@ -58,6 +58,11 @@
   border-radius: 20px;
 }
 
+.skills-btn-text a {
+    color: white;
+    text-decoration: none;
+}
+
 .skills-links {
   color: rgb(109, 199, 230);
   cursor: pointer;
