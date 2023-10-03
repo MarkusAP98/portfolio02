@@ -1,43 +1,81 @@
-
 .main {
-    color: white;
-    position: relative;
-    top: -20px;
-    z-index: -1;
+  color: white;
+  position: relative;
+  top: -20px;
+  z-index: -1;
 }
 .hand-emoiji {
-    font-size: 3rem;
-    position: relative;
-    top: -4rem;
+  font-size: 3rem;
+  position: relative;
+  top: -4rem;
 }
 
 .video-background video {
-    width: 100%;
-    margin-top: -1.2rem;
+  width: 100%;
+  margin-top: -1.2rem;
 }
 
 .main-text {
-    position: absolute;
-    top: 200px;
-    left: 100px;
-    font-size: 4.5rem;
-    background-color: transparent;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  font-size: 4.5rem;
+  background-color: transparent;
+}
+
+.main button {
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 5rem;
+  font-size: 3rem;
+  padding: 1rem;
+  background-color: rgb(109, 199, 230);
+  color: white;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 1250px) {
-    .main {
-        top: -68px;
-    }
+  .main {
+    top: -68px;
+  }
 }
 
 @media screen and (max-width: 1150px) {
-    .main-text {
-        font-size: 4rem;
-    }
+  .main-text {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 1050px) {
-    .main-text {
-        font-size: 3rem;
-    }
+  .main-text {
+    font-size: 3rem;
+  }
+
+  .video-background {
+    overflow: hidden;
+  }
+  .video-background video {
+    width: 150%;
+    margin-left: -3rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .main-text {
+    top: 150px;
+    left: 41%;
+    font-size: 2rem;
+  }
+  .main-text h1 {
+    margin-left: -3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main-text {
+    top: 150px;
+    left: 37%;
+    font-size: 1.5rem;
+  }
+  .main-text h1 {
+    margin-left: -2rem;
+  }
 }
