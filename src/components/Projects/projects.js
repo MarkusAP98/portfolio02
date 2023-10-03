@@ -7,7 +7,7 @@ import Resturaunt from "../../assets/images/Resturaunt.png";
 
 const projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>PROJECTS 👩🏻‍💻</h1>
       <div className="projects__wrapper">
         <div className="allProjects">

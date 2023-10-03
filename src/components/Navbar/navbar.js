@@ -57,13 +57,24 @@ const Navbar = () => {
         {/*------ after clicked hamburger this will be open----- */}
         {toggleMenu && (
           <div className="navbar__smallscreen-overlay">
-          <div className="sm-header">
-            <h1>Portfolio</h1>
-            <RxCross1 className="x"
-              onClick={() => setToggleMenu(false)}
-            />
-          </div>
-            
+            <div className="sm-header">
+              <h1>Portfolio</h1>
+              <RxCross1 className="x" onClick={() => setToggleMenu(false)} />
+            </div>
+
+            <div className="navbar__list-sm">
+              <ul>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+              </ul>
+            </div>
           </div>
         )}
       </div>

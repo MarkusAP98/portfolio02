@@ -24,15 +24,14 @@
 }
 
 .navbar__bigscreen a {
-    color: white;
-    text-decoration:none ;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar__bigscreen a:hover {
-     color: aqua;
+  color: aqua;
   cursor: pointer;
 }
-
 
 .navbar__icons ul {
   display: flex;
@@ -62,10 +61,9 @@
   margin: 1rem 1rem;
 }
 
-.hamburger { 
+.hamburger {
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 850px) {
   .navbar__bigscreen {
@@ -86,6 +84,7 @@
   position: absolute;
   width: 100%;
   background: black;
+  z-index: 100;
 }
 
 .sm-header {
@@ -101,3 +100,31 @@
   font-size: 34px;
   cursor: pointer;
 }
+
+.navbar__list-sm li {
+  padding: 1.5rem;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+
+.navbar__list-sm li:hover {
+  background: rgb(53, 49, 49);
+  cursor: pointer;
+}
+
+.navbar__list-sm a {
+  font-size: 26px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+
+}
+
+.navbar__list-sm ul {
+  list-style: none;
+}
+
+
