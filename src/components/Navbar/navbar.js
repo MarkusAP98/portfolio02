@@ -55,7 +55,17 @@ const Navbar = () => {
           />
         </div>
         {/*------ after clicked hamburger this will be open----- */}
-        
+        {toggleMenu && (
+          <div className="navbar__smallscreen-overlay">
+          <div className="sm-header">
+            <h1>Portfolio</h1>
+            <RxCross1 className="x"
+              onClick={() => setToggleMenu(false)}
+            />
+          </div>
+            
+          </div>
+        )}
       </div>
     </nav>
   );
