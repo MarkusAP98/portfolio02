@@ -23,6 +23,17 @@
   background-color: transparent;
 }
 
+.main button {
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 5rem;
+  font-size: 3rem;
+  padding: 1rem;
+  background-color: rgb(109, 199, 230);
+  color: white;
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 1250px) {
   .main {
     top: -68px;
@@ -45,5 +56,26 @@
   }
   .video-background video {
     width: 150%;
+    margin-left: -3rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .main-text {
+    top: 150px;
+    left: 41%;
+    font-size: 2rem;
+  }
+  .main-text h1 {
+    margin-left: -3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main-text {
+    top: 150px;
+    left: 37%;
+    font-size: 1.5rem;
+  }
+  .main-text h1 {
+    margin-left: -2rem;
   }
 }
