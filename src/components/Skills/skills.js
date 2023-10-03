@@ -31,16 +31,18 @@ const skills = () => {
         </div>
         <div className="skills-showcase">
           <h3>My Skills</h3>
-          <button className="skills-btn">HTML</button>
-          <button className="skills-btn">CSS</button>
-          <button className="skills-btn">JavaScript</button>
-          <button className="skills-btn">React</button>
-          <button className="skills-btn">Git</button>
-          <button className="skills-btn">GitHub</button>
-          <button className="skills-btn">Git Graph</button>
-          <button className="skills-btn">Bootstrap</button>
-          <button className="skills-btn">Taillwind</button>
-          <button className="skills-btn">Responsive Design</button>
+          <div className="skills-btns">
+            <button className="skills-btn">HTML</button>
+            <button className="skills-btn">CSS</button>
+            <button className="skills-btn">JavaScript</button>
+            <button className="skills-btn">React</button>
+            <button className="skills-btn">Git</button>
+            <button className="skills-btn">GitHub</button>
+            <button className="skills-btn">Git Graph</button>
+            <button className="skills-btn">Bootstrap</button>
+            <button className="skills-btn">Taillwind</button>
+            <button className="skills-btn">Responsive Design</button>
+          </div>
         </div>
       </div>
       <div></div>
