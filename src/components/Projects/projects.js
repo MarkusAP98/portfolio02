@@ -92,7 +92,7 @@ const projects = () => {
           Contact me{" "}
           
            
-            <AiFillLinkedin />
+            <AiFillLinkedin className="projects_in-btn"/>
           
         </button></a>
       </div>
