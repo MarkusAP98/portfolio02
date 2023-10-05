@@ -72,10 +72,13 @@
 @media screen and (max-width: 550px) {
   .main-text {
     top: 150px;
-    left: 37%;
+    left: 31%;
     font-size: 1.5rem;
   }
   .main-text h1 {
     margin-left: -2rem;
+  }
+  .main-text h4 {
+    margin-left: 0.5rem;
   }
 }

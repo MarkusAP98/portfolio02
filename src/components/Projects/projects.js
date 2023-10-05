@@ -30,7 +30,7 @@ const projects = () => {
         </div>
 
         {/* --------ChatGpt3-------- */}
-        <div className="allProjects" style={{ flexDirection: "row-reverse" }}>
+        <div className="allProjects-reverse">
           <a href="#">
             <img src={ChatGpt3} className="allProjects_img"></img>
           </a>
@@ -69,7 +69,7 @@ const projects = () => {
 
         {/* --------Resturuant Gerich--------- */}
 
-        <div className="allProjects" style={{ flexDirection: "row-reverse" }}>
+        <div className="allProjects-reverse">
           <a href="#">
             <img src={Resturaunt} className="allProjects_img"></img>
           </a>

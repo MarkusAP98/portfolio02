@@ -110,7 +110,7 @@
 }
 @media screen and (max-width: 1050px) {
   .skills-wrapper {
-    top: -20rem;
+    top: -0rem;
   }
 }
 
@@ -123,7 +123,7 @@
     font-size: 16px;
   }
   .skills-wrapper {
-    top: -10rem;
+    top: 0rem;
   }
   .about_txt {
     display: block;
@@ -133,7 +133,7 @@
 
 @media screen and (max-width: 650px) {
   .skills-wrapper {
-    top: -5rem;
+    top: -0rem;
   }
   .skills-showcase {
     width: 90%;
