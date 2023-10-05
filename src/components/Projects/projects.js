@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import { AiFillLinkedin } from 'react-icons/ai'
 import BarplayClone from "../../assets/images/barplayClone02.png";
 import ChatGpt3 from "../../assets/images/chat_gpt3.png";
 import PersonalTrainer from "../../assets/images/PT-uuno.png";
@@ -85,6 +86,15 @@ const projects = () => {
             </div>
           </div>
         </div>
+        <button className="Ctn-Btn">
+          Contact me{" "}
+          <a
+            href="https://www.linkedin.com/in/markus-phantha-245605239/"
+            target="_blank"
+          >
+            <AiFillLinkedin />
+          </a>
+        </button>
       </div>
     </div>
   );

@@ -59,13 +59,34 @@
 }
 
 .skills-btn-text a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .skills-links {
   color: rgb(109, 199, 230);
   cursor: pointer;
+}
+
+.Ctn-Btn {
+  height: 7rem;
+  width: 100%;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 1rem;
+  font-size: 3rem;
+  padding: 1rem;
+  background-color: rgb(109, 199, 230);
+  color: white;
+  border-radius: 20px;
+}
+
+.Ctn-Btn a {
+  position: relative;
+  top: 10px;
+  color: white;
+  font-size: 54px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -138,9 +159,17 @@
   .skills-showcase {
     width: 90%;
   }
+  .Ctn-Btn {
+    margin-left: 1rem;
+    height: 10rem;
+  }
 }
 @media screen and (max-width: 550px) {
   .skills-wrapper {
     top: 0rem;
+  }
+  .Ctn-Btn {
+    margin-left: 1rem;
+    height: 10rem;
   }
 }
