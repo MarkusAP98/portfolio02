@@ -16,12 +16,12 @@ const footer = () => {
           <h1>Social</h1>
           <ul>
             <li>
-              <a>
+              <a href="https://github.com/MarkusAP98">
                 <AiFillGithub />
               </a>
             </li>
             <li>
-              <a>
+              <a href="https://www.linkedin.com/in/markus-phantha-245605239/">
                 <AiFillLinkedin />
               </a>
             </li>

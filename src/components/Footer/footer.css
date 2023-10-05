@@ -11,8 +11,23 @@
   list-style: none;
 }
 
+.footer_icons a {
+  color: white;
+}
+
 .footer-copyRight {
   text-align: center;
   color: white;
   background: rgb(54, 54, 54);
+}
+
+@media screen and (max-width: 550px) {
+  .footer_text {
+    font-size: 10px;
+    padding: 0rem;
+  }
+
+  .footer_icons {
+    margin-left: 3rem;
+  }
 }
