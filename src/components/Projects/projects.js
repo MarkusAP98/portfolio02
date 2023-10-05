@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillLinkedin } from "react-icons/ai";
 import BarplayClone from "../../assets/images/barplayClone02.png";
 import ChatGpt3 from "../../assets/images/chat_gpt3.png";
 import PersonalTrainer from "../../assets/images/PT-uuno.png";
@@ -54,7 +54,7 @@ const projects = () => {
             <img src={PersonalTrainer} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
-            <h3>PersonalTrainer</h3>
+            <h3 id="projects_PT">PersonalTrainer</h3>
             <p>
               "I have a friend who is a Personal Trainer, and he happened to
               need a website. So I made one for him just to get more training in
@@ -85,16 +85,15 @@ const projects = () => {
               <button>Live Website</button>
             </div>
           </div>
-        </div><a href="https://www.linkedin.com/in/markus-phantha-245605239/"
-            target="_blank"
-          >
-        <button className="Ctn-Btn">
-          Contact me{" "}
-          
-           
-            <AiFillLinkedin />
-          
-        </button></a>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/markus-phantha-245605239/"
+          target="_blank"
+        >
+          <button className="Ctn-Btn">
+            Contact me <AiFillLinkedin className="projects_in-btn" />
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -25,14 +25,12 @@ const skills = () => {
           </p>
           <br></br>
           <br></br>
-          <button className="skills-btn-text">
-            <a
-              href="https://www.linkedin.com/in/markus-phantha-245605239/"
-              target="_blank"
-            >
-              Linkedin
-            </a>
-          </button>
+          <a
+            href="https://www.linkedin.com/in/markus-phantha-245605239/"
+            target="_blank"
+          >
+            <button className="skills-btn-text">Linkedin</button>
+          </a>
         </div>
         <div className="skills-showcase">
           <h3>My Skills</h3>
