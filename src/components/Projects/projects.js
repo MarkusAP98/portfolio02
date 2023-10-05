@@ -85,16 +85,16 @@ const projects = () => {
               <button>Live Website</button>
             </div>
           </div>
-        </div>
-        <button className="Ctn-Btn">
-          Contact me{" "}
-          <a
-            href="https://www.linkedin.com/in/markus-phantha-245605239/"
+        </div><a href="https://www.linkedin.com/in/markus-phantha-245605239/"
             target="_blank"
           >
+        <button className="Ctn-Btn">
+          Contact me{" "}
+          
+           
             <AiFillLinkedin />
-          </a>
-        </button>
+          
+        </button></a>
       </div>
     </div>
   );
