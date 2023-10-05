@@ -54,7 +54,7 @@ const projects = () => {
             <img src={PersonalTrainer} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
-            <h3>PersonalTrainer</h3>
+            <h3 id="projects_PT">PersonalTrainer</h3>
             <p>
               "I have a friend who is a Personal Trainer, and he happened to
               need a website. So I made one for him just to get more training in
