@@ -41,7 +41,7 @@
 }
 
 .allProjects_text {
-  width: 50%;
+  width: 40%;
   margin-left: 3rem;
 }
 
@@ -56,7 +56,7 @@
   width: 100%;
   text-align: center;
   justify-content: center;
-  padding: 1rem 4rem;
+  padding: 1rem 6rem;
 }
 .allProjects_btns {
   text-align: center;
