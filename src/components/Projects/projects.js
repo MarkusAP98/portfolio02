@@ -62,7 +62,7 @@ const projects = () => {
         </div>
         {/* ---------personal trainer----- */}
         <div className="allProjects">
-          <a href="personaltrainer-uuno.web.app" target="_blank">
+          <a href="https://personaltrainer-uuno.web.app/" target="_blank">
             <img src={PersonalTrainer} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
@@ -81,7 +81,7 @@ const projects = () => {
                 <button>View Code</button>
               </a>
 
-              <a href="personaltrainer-uuno.web.app" target="_blank">
+              <a href="https://personaltrainer-uuno.web.app/" target="_blank">
                 <button>Live Website</button>
               </a>
             </div>
@@ -108,7 +108,10 @@ const projects = () => {
                 <button>View Code</button>
               </a>
 
-              <a href="https://gerich-restaurant-c468b.web.app/" target="_blank">
+              <a
+                href="https://gerich-restaurant-c468b.web.app/"
+                target="_blank"
+              >
                 <button>Live Website</button>
               </a>
             </div>
