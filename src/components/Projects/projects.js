@@ -62,7 +62,7 @@ const projects = () => {
         </div>
         {/* ---------personal trainer----- */}
         <div className="allProjects">
-          <a href="#">
+          <a href="personaltrainer-uuno.web.app" target="_blank">
             <img src={PersonalTrainer} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
@@ -74,8 +74,16 @@ const projects = () => {
               the website."
             </p>
             <div className="allProjects_btns">
-              <button>View Code</button>
-              <button>Live Website</button>
+              <a
+                href="https://github.com/MarkusAP98/PtUunoSilvennoinen.github.io"
+                target="_blank"
+              >
+                <button>View Code</button>
+              </a>
+
+              <a href="personaltrainer-uuno.web.app" target="_blank">
+                <button>Live Website</button>
+              </a>
             </div>
           </div>
         </div>
@@ -83,7 +91,7 @@ const projects = () => {
         {/* --------Resturuant Gerich--------- */}
 
         <div className="allProjects-reverse">
-          <a href="#">
+          <a href="https://gerich-restaurant-c468b.web.app/" target="_blank">
             <img src={Resturaunt} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
@@ -93,8 +101,16 @@ const projects = () => {
               images i was able to make this nice looking website.
             </p>
             <div className="allProjects_btns">
-              <button>View Code</button>
-              <button>Live Website</button>
+              <a
+                href="https://github.com/MarkusAP98/Gerich-Resturant"
+                target="_blank"
+              >
+                <button>View Code</button>
+              </a>
+
+              <a href="https://gerich-restaurant-c468b.web.app/" target="_blank">
+                <button>Live Website</button>
+              </a>
             </div>
           </div>
         </div>
