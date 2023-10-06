@@ -24,8 +24,12 @@ const projects = () => {
               open and what services, food, or drinks they offer."
             </p>
             <div className="allProjects_btns">
-              <button>View Code</button>
-              <button>Live Website</button>
+              <a href="https://github.com/MarkusAP98/barplay02" target="_blank">
+                <button>View Code</button>
+              </a>
+              <a href="https://barplayclone.web.app/" target="_blank">
+                <button>Live Website</button>
+              </a>
             </div>
           </div>
         </div>
@@ -47,8 +51,12 @@ const projects = () => {
               a ChatGpt3 theme."
             </p>
             <div className="allProjects_btns">
-              <button>View Code</button>
-              <button>Live Website</button>
+              <a href="https://github.com/MarkusAP98/Chat-GPT3" target="_blank">
+                <button>View Code</button>
+              </a>
+              <a href="https://chatgpt-3-2faf6.web.app/">
+                <button>Live Website</button>
+              </a>
             </div>
           </div>
         </div>
