@@ -18,7 +18,11 @@ const skills = () => {
             contribute, learn and grow. If you have a good opportunity that
             matches my skills and experience then don't hesitate to contact me
             with{" "}
-            <a className="skills-links">
+            <a
+              className="skills-links"
+              href="https://www.linkedin.com/in/markus-phantha-245605239/"
+              target="_blank"
+            >
               <strong>Linkedin</strong>
             </a>
             .
