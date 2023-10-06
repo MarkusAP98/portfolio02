@@ -54,7 +54,7 @@ const projects = () => {
               <a href="https://github.com/MarkusAP98/Chat-GPT3" target="_blank">
                 <button>View Code</button>
               </a>
-              <a href="https://chatgpt-3-2faf6.web.app/">
+              <a href="https://chatgpt-3-2faf6.web.app/" target="_blank">
                 <button>Live Website</button>
               </a>
             </div>
