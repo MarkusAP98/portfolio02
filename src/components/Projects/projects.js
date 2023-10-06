@@ -12,7 +12,7 @@ const projects = () => {
       <h1>PROJECTS 👩🏻‍💻</h1>
       <div className="projects__wrapper">
         <div className="allProjects">
-          <a href="#">
+          <a href="https://barplayclone.web.app/" target="_blank">
             <img src={BarplayClone} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
@@ -32,7 +32,11 @@ const projects = () => {
 
         {/* --------ChatGpt3-------- */}
         <div className="allProjects-reverse">
-          <a href="#">
+          <a
+            href="https://chatgpt-3-2faf6.web.app/"
+            target="
+          _blank"
+          >
             <img src={ChatGpt3} className="allProjects_img"></img>
           </a>
           <div className="allProjects_text">
